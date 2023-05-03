@@ -1,0 +1,103 @@
+/* Sadman Mazumder, IS117, Spring 2023*/
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/portrait.png');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #2670c9;
+}
+.servicesText:hover {
+    border: 1px solid #2670c9;
+}
+
+/* footer styling */
+#footer {
+    background-color: #f3eeee;
+    text-align: center;
+}
+
+/*-------------------*/
+
+.footer {
+    background-color: #bb2727;
+    color: #fffbfb;
+    padding: 20px;
+
+    position: fixed;
+    left: 0;
+    
+    bottom: 0;
+    line-height: 60px;
+    width: 100%;
+}
+.footer p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 15px;
+    font-style: 'Cambria';
+}
+.form-group{
+    font-size: 15px;
+    font-style: oblique;
+}
+
+/*----------------*/
+
+.dropdown-menu .dropdown-toggle:after{
+    border-top: .3em solid transparent;
+    border-right: 0;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid;
+}
+.dropdown-menu .dropdown-menu{
+    margin-left:0; margin-right: 0;
+}
+.dropdown-menu li{
+    position: relative;
+}
